@@ -55,10 +55,10 @@ body{
       
 }
 .info-side{
-    padding: 30px;
+    padding: 40px 30px;
 }
 .info-side h1{
-    font-size: 10px;
+    font-size: 12px;
     color: var(--Very-dark-blue);
     opacity: 70%;
     text-transform: uppercase;
@@ -67,20 +67,23 @@ body{
 }
 .info-side h2 {
     font-family: 'Fraunces', serif;
+    font-size: 38px;
+    line-height: 40px;
     margin-top: 20px;
 }
 .info-side p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     margin: 20px 0;
     color: var(--Dark-grayish-blue);
     font-weight: 500;
-    line-height: 19px;
+    line-height: 25px;
 }
 .info-side ul {
     list-style: none;
     display: flex;
     font-family: 'Fraunces', serif;
+    margin-top: 30px;
 }
 .info-side ul li:first-child{
     color: var(--Dark-cyan);
@@ -103,12 +106,12 @@ body{
     background-color: var(--Dark-cyan);
     border: none;
     width: 100%;
-    padding: 10px 0;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    padding: 15px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     font-weight: bold;
 }
 .info-side button img{
